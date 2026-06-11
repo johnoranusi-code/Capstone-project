@@ -1,0 +1,434 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;    
+}
+
+/* BODY */
+
+body {
+    background: #f9f9f9;  
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+ h1 h2 h3{
+    display: block;
+    font-weight: bold;
+    color: #222;
+ }
+
+.navbar{
+    background: #333;
+    margin: auto;
+}
+
+.logo-img{    
+    height: 80px;
+    margin: 0px;
+    width: 100%;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: #e67e22;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2{
+    color:#fff;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.hero p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.Hero-button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    padding: 15px 18px;
+    background:#e67e22 ;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #d35400;
+}
+
+/* FEATURES */ 
+
+.container h2{
+    margin: 10px 5%;
+}
+
+ .f-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 10px 5%;
+    
+ }
+
+    span {
+    color: #e67e22 ;
+    font-weight: bold;
+    font-size: 1.2rem;
+ }
+
+ .card1 img{
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .card2 img{
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .card3 img{
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .card4 img{
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .card5 img{
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .card6 img{
+    height: 200px; 
+    object-fit: cover;
+    width: 100%;
+ }
+
+ .card1 {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+ .card2 {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+ .card3 {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+ .card4 {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+ .card5 {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+ .card6 {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
+.card1-content,.card2-content,.card3-content,.card4-content,.card5-content,.card6-content{
+    padding: 15px 2%;
+}
+
+
+/* ABOUT SECTION */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5%;
+    gap: 30px;
+}
+
+.about h2{
+    /* margin-bottom: 10px; */
+    text-align: left;
+}
+
+.about-chefs{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px 3% ;
+}
+
+/* TESTIMONIAL SECTION */
+
+ .testimonials{
+     padding: 10px 5%;
+} 
+
+.testimonials h2{
+    margin-bottom: 20px;
+}
+
+.t-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-1 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    text-align: center;
+    padding: 20px 2%;
+
+}
+
+.card-2 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px 2%;
+}
+
+.card-3 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px 2%;
+}
+
+/* TABLE SECTION */
+
+.t-section {
+    padding: 25px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #f2f2f2;
+    margin-top: 15px;
+}
+
+th {
+    background:#e67e22;
+    color: #fff;
+    text-align: left;
+}
+
+th,
+td{
+    padding: 10px 1%;
+}
+
+tr:nth-child(odd) {
+ background: #f2f2f2;
+}
+
+tr:hover{
+    background: #ddd;
+}
+
+/* RESERVATION SECTION */
+
+.reserve {
+    padding: 25px 5%;
+    border-radius: ;   
+}
+.form{
+    background: #fff;
+    padding: 20px 2%;
+     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin-top: 20px;
+}
+
+form {
+   
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+ .form-row .form-group{
+    flex: 1;
+}
+
+.form-group{
+display: flex;
+flex-direction:column;
+gap: 8px;
+}
+
+
+input {
+    padding: 10px;
+    border:1.5px solid #ddd;
+    border-radius: 4px;
+
+}
+
+input:focus{
+   border:1.5px solid #e67e22; 
+   outline: none;
+   box-shadow: 0 0 2px #d35400;
+}
+
+
+
+
+.form-button{
+width: 100%;
+background: #e67e22;
+border: 0px solid;
+padding: 13px;
+border-radius: 5px;
+color: #fff;
+}
+.form-button:hover{
+    cursor: pointer;
+    background: #d35400;
+}
+
+/* FOOTER */
+.footer {
+    background:#333;
+    color:#fff;
+    height: 35vh;
+}
+.footer-grid{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0%;
+}
+
+.footer h3{
+    color:#e67e22 ;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact{
+    margin-top: 20px;
+}
+
+.footer-link{
+    display: flex;
+    gap: 13px;
+}
+
+.footer-link a{
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width: 768px){
+ .nav-container{
+    flex-direction: column;
+ }
+
+ .nav-links{
+    flex-direction: column;
+ }
+
+ .f-card{
+    grid-template-columns: 1fr;
+ }
+
+ .about{
+    flex-direction: column;
+ }
+
+ .t-card{
+    grid-template-columns: 1fr;
+ }
+
+ .form-row {
+    flex-direction: column;
+ }
+        
+}
