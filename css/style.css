@@ -371,6 +371,7 @@ color: #fff;
     background:#333;
     color:#fff;
     height: 35vh;
+    margin:auto;
 }
 .footer-grid{
     display: flex;
